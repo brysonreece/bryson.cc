@@ -13,7 +13,7 @@ composer create-project aschmelyun/cleaver your-site-name
 
 ## Requirements
 - PHP 7.1 or higher
-- Fairly recent version of node + npm 
+- Fairly recent version of node + npm
 
 ## Installation
 
@@ -31,9 +31,9 @@ npm run dev
 
 ## Modifying your assets
 
-Cleaver uses SCSS for styling, and there's a basic skeleton structure set up in the `resources/assets/sass` directory. Tailwind is imported by default so you can jump right in to rapid development and prototyping.
+Cleaver uses SCSS for styling, and there's a basic skeleton structure set up in the `resources/sass` directory. Tailwind is imported by default so you can jump right in to rapid development and prototyping.
 
-There's a bootstrapped JavaScript file that imports lodash, jQuery, and Vue dependencies through npm to use with your project. That can be modified by editing the `resources/assets/js/app.js` file.
+There's a bootstrapped JavaScript file that imports lodash, jQuery, and Vue dependencies through npm to use with your project. That can be modified by editing the `resources/js/app.js` file.
 
 ## Building the site
 

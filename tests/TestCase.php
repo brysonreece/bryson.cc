@@ -14,8 +14,8 @@ class TestCase extends BaseTestCase
         'path' => '/test-correct',
         'title' => 'This is a test',
         'mix' => [
-            "/assets/js/app.js" => "/dist/assets/js/app.js",
-            "/assets/css/app.css" => "/dist/assets/css/app.css"
+            "/js/app.js" => "/dist/js/app.js",
+            "/css/app.css" => "/dist/css/app.css"
         ]
     ];
 
@@ -23,16 +23,16 @@ class TestCase extends BaseTestCase
         'path' => '/test-incorrect',
         'title' => 'This is a test',
         'mix' => [
-            "/assets/js/app.js" => "/dist/assets/js/app.js",
-            "/assets/css/app.css" => "/dist/assets/css/app.css"
+            "/js/app.js" => "/dist/js/app.js",
+            "/css/app.css" => "/dist/css/app.css"
         ]
     ];
 
     const TEST_VIEW_PATH = __DIR__ . '/../resources/views/layout/test.blade.php';
 
     const MIX_MANIFEST_TEST_DATA = [
-        "/dist/assets/js/app.js" => "/dist/assets/js/app.js",
-        "/dist/assets/css/app.css" => "/dist/assets/css/app.css"
+        "/dist/js/app.js" => "/dist/js/app.js",
+        "/dist/css/app.css" => "/dist/css/app.css"
     ];
 
     public function setUp(): void
@@ -54,7 +54,7 @@ class TestCase extends BaseTestCase
         $fileEngine = new FileEngine();
 
         if(!is_dir(FileEngine::outputDir())) {
-            mkdir(FileEngine::outputDir() . 'assets/css', 0777, true);
+            mkdir(FileEngine::outputDir() . 'css', 0777, true);
         }
 
         if(!is_file(FileEngine::mixManifest())) {

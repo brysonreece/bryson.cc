@@ -12,8 +12,8 @@ mix.webpackConfig({
 });
 
 mix.setPublicPath('./')
-   .js('resources/assets/js/app.js', 'dist/assets/js')
-   .sass('resources/assets/sass/app.scss', 'dist/assets/css')
+   .js('resources/js/app.js', 'dist/js')
+   .sass('resources/sass/app.scss', 'dist/css')
    .options({
        processCssUrls: false
    })

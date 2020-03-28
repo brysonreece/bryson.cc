@@ -47,12 +47,12 @@ class FileEngineTest extends TestCase
      */
     public function will_not_clean_output_dir_of_asset_files()
     {
-        file_put_contents(FileEngine::outputDir() . 'assets/css/app.css', '.this-is-a-test{}');
+        file_put_contents(FileEngine::outputDir() . 'css/app.css', '.this-is-a-test{}');
 
         $fileEngine = new FileEngine();
         $fileEngine::cleanOutputDir();
 
-        $this->assertTrue(is_file(FileEngine::outputDir() . 'assets/css/app.css'));
+        $this->assertTrue(is_file(FileEngine::outputDir() . 'css/app.css'));
     }
 
 }

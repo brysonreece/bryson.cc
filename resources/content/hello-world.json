@@ -48,7 +48,7 @@
             "contents": [
                 {
                     "type": "text",
-                    "text": "Out of the box, Cleaver comes pre-installed and pre-configured with Tailwind CSS as the front-end style framework of choice. It's included through the main <strong>app.scss</strong> file located in the resources/assets/sass directory."
+                    "text": "Out of the box, Cleaver comes pre-installed and pre-configured with Tailwind CSS as the front-end style framework of choice. It's included through the main <strong>app.scss</strong> file located in the resources/sass directory."
                 },
                 {
                     "type": "text",
@@ -56,7 +56,7 @@
                 },
                 {
                     "type": "text",
-                    "text": "Additionally, we've included a very small bootstrapped <strong>app.js</strong> file in the resources/assets/js directory. It simply adds in lodash and jQuery globally to your site, feel free to extend or remove this functionality as you see fit."
+                    "text": "Additionally, we've included a very small bootstrapped <strong>app.js</strong> file in the resources/js directory. It simply adds in lodash and jQuery globally to your site, feel free to extend or remove this functionality as you see fit."
                 },
                 {
                     "type": "text",

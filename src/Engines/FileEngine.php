@@ -38,7 +38,7 @@ class FileEngine
         return self::$mixManifest;
     }
 
-    public static function cleanOutputDir(bool $ignoreDotFiles = true, array $exclude = ['assets']): void
+    public static function cleanOutputDir(bool $ignoreDotFiles = true, array $exclude = ['css', 'js']): void
     {
         if(!is_dir(self::$outputDir)) {
             return;
