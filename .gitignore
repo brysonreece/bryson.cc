@@ -1,10 +1,10 @@
+/cache
+/dist
 /node_modules
 /vendor
 npm-debug.log
 yarn-error.log
 .DS_Store
 .idea
-/cache
-/dist
 .phpunit.result.cache
 mix-manifest.json
