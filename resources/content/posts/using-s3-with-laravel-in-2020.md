@@ -196,7 +196,7 @@ Storage::setVisibility('file.jpg', 'public');
 
 <br>
 
-Credit for most of these examples belong to the [Laravel docs](https://laravel.com/docs/filesystem) where you can check out just how much more you can do with S3!
+Credit for most of these examples belongs to the [Laravel docs](https://laravel.com/docs/filesystem) where you can check out just how much more you can do with S3!
 
 <br>
 
