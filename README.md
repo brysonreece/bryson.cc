@@ -1,71 +1,31 @@
-# Cleaver
+[![About](https://img.shields.io/badge/-about-inactive)](https://bryson.cc/about)
+[![Work](https://img.shields.io/badge/-work-inactive)](https://bryson.cc/work)
+[![Projects](https://img.shields.io/badge/-projects-inactive)](https://bryson.cc.projects)
+[![Talks](https://img.shields.io/badge/-talks-inactive)](https://bryson.cc/talks)
+[![Posts](https://img.shields.io/badge/-posts-inactive)](https://bryson.cc/posts)
 
-[![Current Version](https://img.shields.io/packagist/v/aschmelyun/cleaver.svg?style=flat-square)](https://packagist.org/packages/aschmelyun/cleaver)
-![License](https://img.shields.io/github/license/aschmelyun/cleaver.svg?style=flat-square)
-[![Build Status](https://img.shields.io/travis/aschmelyun/cleaver/master.svg?style=flat-square)](https://travis-ci.org/aschmelyun/cleaver)
-[![Total Downloads](https://img.shields.io/packagist/dt/aschmelyun/cleaver.svg?style=flat-square)](https://packagist.org/packages/aschmelyun/cleaver)
+<br>
 
-:fire: A blazing-fast static site generator that uses Laravel's Blade templating engine and leverages JSON or Markdown files for super-extensible content.
+# Hey! 👋 I'm Bryson Reece
+## Lead Engineer at WellCaddie and DIY Enthusiast
 
-```bash
-composer create-project aschmelyun/cleaver your-site-name
-```
+<br>
 
-## Requirements
-- PHP 7.1 or higher
-- Fairly recent version of node + npm
+[![View Resume](https://img.shields.io/badge/-View%20Resume-red)](https://github.com/brysonreece/bryson.cc/blob/master/resources/files/bryson-reece-resume.pdf)
+[![About Me](https://img.shields.io/badge/-About%20Me-blue)](https://github.com/brysonreece/bryson.cc/blob/master/resources/content/about.md)
 
-## Installation
+<br>
+<br>
 
-After creating your project with Composer, cd inside your project's root directory and install node dependencies:
+I'm currently looking for a new adventure!</br>
+<strong><a href="mailto:hey@bryson.cc?subject=Let's build something great together!">Think I'd be a good fit on your team?</a></strong>
 
-```bash
-npm install
-```
+<br>
 
-From there you can build the site using the included demo content, which outputs to a `dist/` folder in your project root:
+----
 
-```bash
-npm run dev
-```
-
-## Modifying your assets
-
-Cleaver uses SCSS for styling, and there's a basic skeleton structure set up in the `resources/sass` directory. Tailwind is imported by default so you can jump right in to rapid development and prototyping.
-
-There's a bootstrapped JavaScript file that imports lodash, jQuery, and Vue dependencies through npm to use with your project. That can be modified by editing the `resources/js/app.js` file.
-
-## Building the site
-
-To compile the SCSS/JS assets and build the static site files, you can run `npm run dev` from the root. Additionally, using `npm run watch` starts up a local node server that you can use to view your compiled project, and will watch the entire `resources/` directory for changes to any assets, views, or content files.
-
-If you would like to build your site without compiling the assets, run the `php cleaver` command from the project root.
-
-## Publishing your site
-
-Once you're ready to publish your site, simply run the command:
-
-```bash
-npm run production
-```
-
-Which will minify your assets and build the site again with the new versioned files.
-
-You can then publish your entire project to a host of your choice as long as the web root is pointed to the `/dist` folder. Additionally, you're free to just publish the built files in the dist folder by themselves.
-
-## Roadmap
-Cleaver is still very much in development, and while it's designed to remain as simple as possible there's a few features that could make for a better overall experience. Here's what's on the path ahead:
-
-- [x] Ability to use folders in content directory
-- [x] Add collection containing all content into each view
-- [ ] Ability to add in and use HTML in JSON content files
-- [ ] More detailed build errors if something goes wrong
-- [ ] A better cli interface and style during site builds
-
-## Contact Info
-
-Have an issue? Submit it here! Want to get in touch or recommend a feature? Feel free to reach out to me on [Twitter](https://twitter.com/aschmelyun) for any other questions or comments.
-
-## License
-
-The MIT License (MIT). See [LICENSE.md](https://github.com/aschmelyun/cleaver/blob/master/LICENSE.md) for more details.
+[![GitHub](https://img.shields.io/badge/-GitHub-inactive)](https://github.com/brysonreece)
+[![Twitter](https://img.shields.io/badge/-Twitter-inactive)](https://twitter.com/brysonio)
+[![Medium](https://img.shields.io/badge/-Medium-inactive)](https://medium.com/@brysonreece)
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-inactive)](https://www.linkedin.com/in/brysonreece/)
+[![Email](https://img.shields.io/badge/-Email-inactive)](mailto:hey@bryson.cc)
