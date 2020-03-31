@@ -1,6 +1,6 @@
 [![About](https://img.shields.io/badge/-about-inactive)](https://bryson.cc/about)
 [![Work](https://img.shields.io/badge/-work-inactive)](https://bryson.cc/work)
-[![Projects](https://img.shields.io/badge/-projects-inactive)](https://bryson.cc.projects)
+[![Projects](https://img.shields.io/badge/-projects-inactive)](https://bryson.cc/projects)
 [![Talks](https://img.shields.io/badge/-talks-inactive)](https://bryson.cc/talks)
 [![Posts](https://img.shields.io/badge/-posts-inactive)](https://bryson.cc/posts)
 
@@ -17,7 +17,7 @@
 <br>
 <br>
 
-I'm currently looking for a new adventure!</br>
+I'm currently looking for a new adventure!<br>
 <strong><a href="mailto:hey@bryson.cc?subject=Let's build something great together!">Think I'd be a good fit on your team?</a></strong>
 
 <br>
@@ -29,3 +29,10 @@ I'm currently looking for a new adventure!</br>
 [![Medium](https://img.shields.io/badge/-Medium-inactive)](https://medium.com/@brysonreece)
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-inactive)](https://www.linkedin.com/in/brysonreece/)
 [![Email](https://img.shields.io/badge/-Email-inactive)](mailto:hey@bryson.cc)
+
+<br>
+<br>
+<br>
+
+Built with [Cleaver 🔪](https://github.com/aschmelyun/cleaver)<br>
+Design inspired by [@abinavseelan 🎨](https://github.com/abinavseelan)
