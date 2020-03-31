@@ -32,7 +32,6 @@ I'm currently looking for a new adventure!<br>
 
 <br>
 <br>
-<br>
 
-Built with [Cleaver 🔪](https://github.com/aschmelyun/cleaver)<br>
+Built with [Cleaver 🔪](https://github.com/aschmelyun/cleaver)
 Design inspired by [@abinavseelan 🎨](https://github.com/abinavseelan)
