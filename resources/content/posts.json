@@ -1,0 +1,15 @@
+{
+    "view": "pages.posts",
+    "path": "/posts",
+    "title": "Posts.",
+    "posts": [
+        {
+            "title": "Using S3 with Laravel in 2020",
+            "url": "/posts/using-s3-with-laravel-in-2020"
+        },
+        {
+            "title": "I got engaged!",
+            "url": "/posts/i-got-engaged"
+        }
+    ]
+}

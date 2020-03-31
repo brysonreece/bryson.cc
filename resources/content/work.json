@@ -1,0 +1,157 @@
+{
+    "view": "pages.work",
+    "path": "/work",
+    "title": "Work, Community.",
+    "jobsTitle": "Work.",
+    "communityTitle": "Community.",
+    "jobs": [
+        {
+            "logo": "/img/logos/wellcaddie.png",
+            "name": "WellCaddie",
+            "url": "https://wellcaddie.com",
+            "title": "Lead Software Engineer",
+            "location": "Norman, OK",
+            "dates": {
+                "begin": "Jun 2018",
+                "end": "Present"
+            },
+            "description": "Implemented and facilitated a complete overhaul and refactor of both frontend and backend services of the WellCaddie platform directly resulting in a company valuation increase of several million dollars."
+        },
+        {
+            "logo": "/img/logos/ou.png",
+            "name": "University of Oklahoma",
+            "url": "https://ou.edu",
+            "title": "PinYin Consultant",
+            "location": "Norman, OK",
+            "dates": {
+                "begin": "Aug 2017",
+                "end": "May 2018"
+            },
+            "description": "Assisted in developing a number of patented transliteration devices to enable Chinese speakers to gain a better grasp of the English language through newly researched translation techniques."
+        },
+        {
+            "logo": "/img/logos/wellcaddie.png",
+            "name": "WellCaddie",
+            "url": "https://wellcaddie.com",
+            "title": "Senior Software Engineer",
+            "location": "Norman, OK",
+            "dates": {
+                "begin": "May 2017",
+                "end": "Jun 2018"
+            },
+            "description": null
+        },
+        {
+            "logo": "/img/logos/wellcaddie.png",
+            "name": "WellCaddie",
+            "url": "https://wellcaddie.com",
+            "title": "Software Engineer",
+            "location": "Norman, OK",
+            "dates": {
+                "begin": "Nov 2016",
+                "end": "May 2017"
+            },
+            "description": null
+        },
+        {
+            "logo": "/img/logos/tankvault.png",
+            "name": "Tankvault",
+            "title": "Software Engineering Internship",
+            "location": "Norman, OK",
+            "dates": {
+                "begin": "Aug 2016",
+                "end": "Nov 2016"
+            },
+            "description": "Developed web-based tooling to streamline oil and gas worker operations. Features developed included mapping applications used for route optimization, forecast indicators for field workers, as well as mobile alerts and monitoring for damaged oil production equipment."
+        },
+
+        {
+            "logo": "/img/logos/ou.png",
+            "name": "University of Oklahoma",
+            "url": "https://libraries.ou.edu/edge",
+            "title": "VR Software Engineer",
+            "location": "Norman, OK",
+            "dates": {
+                "begin": "May 2016",
+                "end": "Aug 2017"
+            },
+            "description": "Helped establish the first makerspace at the university while developing workflows and custom tooling for managing 3D printing services. Also helped develop O.V.A.L., a VR pedagogy tool currently used by universities nationwide. O.V.A.L. went on to host the world’s first remote pedagogy session in virtual reality."
+        }
+    ],
+    "community": [
+        {
+            "logo": "/img/logos/ou.png",
+            "name": "Homebrew Website Club",
+            "url": "https://libraries.ou.edu/content/homebrew-website-club-0",
+            "title": "Member",
+            "dates": {
+                "begin": "Aug 2018",
+                "end": "Dec 2018"
+            },
+            "description": "Collaborate with and teach individuals about self-hosting web projects, as well as tips and tricks on various frameworks and tech stacks."
+        },
+        {
+            "logo": "/img/logos/meetup.png",
+            "name": "Norman AR/VR",
+            "url": "https://www.meetup.com/Norman-VR-AR-Meetup/",
+            "title": "Member",
+            "dates": {
+                "begin": "Aug 2018",
+                "end": "Apr 2019"
+            },
+            "description": "Host weekly community meetings based around Augmented and Virtual Reality technologies, as well as provide consulting pro-bono for business leaders to explore AR/VR opportunities in their fields."
+        },
+        {
+            "logo": "/img/logos/ou.png",
+            "name": "OU Engineers' Club",
+            "url": "http://eclub.ou.edu/",
+            "title": "Member",
+            "dates": {
+                "begin": "Jan 2016",
+                "end": "Jan 2020"
+            },
+            "description": null
+        },
+        {
+            "logo": "/img/logos/ou.png",
+            "name": "OU Virtual Reality Association",
+            "title": "Co-founder/President",
+            "dates": {
+                "begin": "Feb 2017",
+                "end": "Dec 2018"
+            },
+            "description": "Created and managed a student organization with a board of individuals ingrained into the Virtual Reality development community. Hosted weekly meetings and workshops free to the public and assisted in Oculus NextGen Symposium entries; projects which led to full-time position offers for members.",
+            "resources": [
+                {
+                    "name": "OU Daily - Apr 2017",
+                    "url": "http://www.oudaily.com/news/new-ou-virtual-reality-club-collaborates-with-university-libraries-to/article_2119815e-11a0-11e7-9366-5f15030681c5.html"
+                },
+                {
+                    "name": "OU Daily - Mar 2018",
+                    "url": "http://www.oudaily.com/a_and_e/ou-virtual-reality-association-allows-students-to-develop-technological-skills/article_9b6f0702-27b7-11e8-8230-c37b71f3ea1e.html"
+                }
+            ]
+        },
+        {
+            "logo": "/img/logos/ou.png",
+            "name": "Bizzell Memorial Library",
+            "url": "https://libraries.ou.edu/edge",
+            "title": "Community Builder",
+            "dates": {
+                "begin": "Feb 2016",
+                "end": "Aug 2017"
+            },
+            "description": "Hosted a series of workshops aimed at introducing cutting-edge technologies like 3D Printing to students around the University of Oklahoma's campus."
+        },
+        {
+            "logo": "/img/logos/meetup.png",
+            "name": "OKC VR",
+            "title": "Community Educator",
+            "dates": {
+                "begin": "Jun 2017",
+                "end": "Aug 2017"
+            },
+            "description": "Taught community workshops on Augmented and Virtual Reality application development using the Unity3D game engine."
+        }
+    ]
+}

@@ -1,0 +1,56 @@
+{
+    "view": "pages.talks",
+    "path": "/talks",
+    "title": "Talks.",
+    "talks": [
+        {
+            "title": "Developing for the Microsoft HoloLens",
+            "description": "Cursory overview of the <a href=\"https://microsoft.com/en-us/hololens\">Microsoft Hololens</a> platform, as well as a live demonstration of developing an application for it using <a href=\"https://unity.com/\">Unity</a>.",
+            "occured_at": "Sep 2018",
+            "location": "Norman, OK",
+            "facility": "Norman AR/VR"
+        },
+        {
+            "title": "Introduction to Laravel 5",
+            "description": "Demonstrated how to get started using the <a href=\"https://laravel.com\">Laravel</a> framework to flexibly develop web applications from scratch.",
+            "occured_at": "Oct 2018",
+            "location": "Norman, OK",
+            "facility": "OU Homebrew Website Club"
+        },
+        {
+            "title": "Introduction to Unity - Advanced",
+            "description": "Piggybacked off of a previous talk, continued to crowd-develop a rudimentary VR baseball game while showcasing development stategies when tackling augmented and virtual reality.",
+            "occured_at": "Aug 2017",
+            "location": "Norman, OK",
+            "facility": "OKC VR, Techlahoma"
+        },
+        {
+            "title": "Introduction to Unity",
+            "description": "Showcased the ease of development when creating applications or games using the <a href=\"https://unity.com\">Unity</a> game engine. The audience determined a topic, baseball, and followed along as we developed a complimentary VR game in under an hour.",
+            "occured_at": "Jul 2017",
+            "location": "Norman, OK",
+            "facility": "OKC VR, Techlahoma"
+        },
+        {
+            "title": "VR @ OU",
+            "description": "Every week I introduced community members to virtual reality, its applications, games, uses, and development.",
+            "occured_at": "Nov 2016 - Dec 2016, <strong>8 sessions</strong>",
+            "location": "Norman, OK",
+            "facility": "The Edge Makerspace"
+        },
+        {
+            "title": "Introduction to 3D Printing",
+            "description": "Hosted a weekly workshop on developing 3D models and turning those creations into reality using next-generation 3D printers available to the facility.",
+            "occured_at": "Apr 2016 - Dec 2016, <strong>36 sessions</strong>",
+            "location": "Norman, OK",
+            "facility": "The Edge Makerspace"
+        },
+        {
+            "title": "Hacking Home Automation - A DIY Approach to Your Smart Home",
+            "description": "Hosted a workshop that taught individuals how to combine off-the-shelf components, open source platforms, and a little hardware hackery to furnish a secure home automation platform on the cheap.",
+            "occured_at": "Feb 2016, <strong>2 sessions</strong>",
+            "location": "Norman, OK",
+            "facility": "The Edge Makerspace"
+        }
+    ]
+}

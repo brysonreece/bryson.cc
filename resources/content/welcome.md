@@ -1,0 +1,4 @@
+---
+view: welcome
+path: /
+---

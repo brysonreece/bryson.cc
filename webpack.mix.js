@@ -5,6 +5,7 @@ let mix = require('laravel-mix'),
 require('mix-tailwindcss');
 
 mix.disableNotifications();
+
 mix.webpackConfig({
     plugins: [
         build.cleaver
@@ -14,21 +15,11 @@ mix.webpackConfig({
 mix.setPublicPath('./')
    .js('resources/js/app.js', 'dist/js')
    .sass('resources/sass/app.scss', 'dist/css')
+   .copy('resources/files', 'dist/files')
+   .copy('LICENSE.md', 'dist/files')
+   .copy('resources/img', 'dist/img')
    .options({
        processCssUrls: false
    })
    .tailwind()
    .version();
-
-mix.browserSync({
-    files: [
-        {
-            match: ["resources/**/*"],
-            fn: function(event, file) {
-                command.get('php cleaver', (error, stdout, stderr) => {
-                    console.log(error ? stderr : stdout);
-                });
-            }
-        }
-    ]
-});

@@ -1,0 +1,178 @@
+{
+    "view": "pages.projects",
+    "path": "/projects",
+    "title": "Projects.",
+    "projects": [{
+            "title": "Quark",
+            "dates": {
+                "begin": "Feb 2020",
+                "end": "Present"
+            },
+            "description": "An open source alternative to <a href=\"https://spark.laravel.com\">Laravel Spark</a> targeted towards IoT development using the Particle.io platform.",
+            "resources": [
+                {
+                    "html": "<p class=\"my-4 font-bold chevron\">Coming Soon</p>"
+                }
+            ]
+        },
+        {
+            "title": "tailwind-colors",
+            "dates": {
+                "begin": "Feb 2020"
+            },
+            "description": "A collection of Tailwind color palettes 🎨🖌️",
+            "resources": [
+                {
+                    "name": "GitHub",
+                    "url": "https://github.com/brysonreece/tailwind-colors"
+                }
+            ]
+        },
+        {
+            "title": "Let's Code",
+            "dates": {
+                "begin": "Jan 2019"
+            },
+            "description": "An elegant Express.js application to showcase your programming livestreams.",
+            "resources": [
+                {
+                    "name": "GitHub",
+                    "url": "https://github.com/brysonreece/lets-code"
+                }
+            ]
+        },
+        {
+            "title": "Athena",
+            "dates": {
+                "begin": "Apr 2017",
+                "end": "Mar 2018"
+            },
+            "description": "A mobile Learning Management System (LMS) video platform targeted towards low-cost virtual reality environments.",
+            "resources": [
+                {
+                    "name": "GitHub",
+                    "url": "https://github.com/athena-app"
+                }
+            ]
+        },
+        {
+            "title": "Seedling",
+            "dates": {
+                "begin": "Aug 2017",
+                "end": "Oct 2017"
+            },
+            "description": "Developed an interactive exhibit to extract linguistic details from Chinese characters using the PinYin system in order to allow real-time translation to English phonemes with correct pronunciation, all packaged into a children's toy.",
+            "resources": [
+                {
+                    "name": "GitHub",
+                    "url": "https://github.com/athena-app"
+                }
+            ]
+        },
+        {
+            "title": "EmPy",
+            "dates": {
+                "begin": "Aug 2017"
+            },
+            "description": "Analyzes emotional states of Instagram posts using machine learning and Microsoft Cloud APIs.",
+            "resources": [
+                {
+                    "name": "GitHub",
+                    "url": "https://github.com/brysonreece/empy"
+                }
+            ]
+        },
+        {
+            "title": "Octofii",
+            "dates": {
+                "begin": "May 2016"
+            },
+            "description": "Receive OctoPrint notifications across a variety of platforms.",
+            "resources": [
+                {
+                    "name": "GitHub",
+                    "url": "https://github.com/brysonreece/octofii"
+                }
+            ]
+        },
+        {
+            "title": "O.V.A.L.",
+            "dates": {
+                "begin": "May 2016",
+                "end": "Aug 2017"
+            },
+            "description": "A VR pedagogy tool currently used by universities nationwide. O.V.A.L. went on to host the world’s first remote pedagogy session in virtual reality.",
+            "resources": [
+                {
+                    "name": "GitHub - Alpha",
+                    "url": "https://github.com/MorganWalkup/OVAL-Application"
+                },
+                {
+                    "name": "GitHub - v1",
+                    "url": "https://github.com/OVAL-VR"
+                },
+                {
+                    "name": "GitHub - v2",
+                    "url": "https://github.com/OULibraries/OVAL2.0"
+                },
+                {
+                    "name": "News Coverage",
+                    "url": "https://campustechnology.com/articles/2017/10/09/multi-campus-vr-session-tours-remote-cave-art.aspx"
+                }
+            ]
+        },
+        {
+            "title": "stl-viewer",
+            "dates": {
+                "begin": "Feb 2016"
+            },
+            "description": "An online stereolithography file viewer using Three.js",
+            "resources": [
+                {
+                    "name": "GitHub",
+                    "url": "https://github.com/brysonreece/stl-viewer"
+                }
+            ]
+        },
+        {
+            "title": "File.io",
+            "dates": {
+                "begin": "Feb 2016"
+            },
+            "description": "Decentralized file storage from a keychain computer",
+            "resources": [
+                {
+                    "name": "GitHub",
+                    "url": "https://github.com/brysonreece/file.io"
+                }
+            ]
+        },
+        {
+            "title": "Kore",
+            "dates": {
+                "begin": "Nov 2015"
+            },
+            "description": "3D-printable assistive devices for those physically impaired",
+            "resources": [
+                {
+                    "name": "GitHub",
+                    "url": "https://github.com/brysonreece/kore"
+                }
+            ]
+        },
+        {
+            "title": "Stream",
+            "dates": {
+                "begin": "Jun 2014",
+                "end": "May 2016"
+            },
+            "description": "A video torrent streaming platform developed for XBMC/KODI, reached >13k downloads.",
+            "resources": [
+                {
+                    "name": "GitHub",
+                    "url": "https://github.com/brysonreece/stream"
+                }
+            ]
+        }
+    ]
+}
