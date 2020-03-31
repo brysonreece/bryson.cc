@@ -207,6 +207,14 @@ body {
     margin-bottom: 50px;
 }
 
+.section :not(a) > h3 {
+    @apply text-gray-600;
+}
+
+.section.section.section-inverted h3 {
+    @apply text-white;
+}
+
 .section.section-inverted {
     background-color: #5c6ae6;
     margin-top: 100px;
