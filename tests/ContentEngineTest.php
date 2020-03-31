@@ -2,6 +2,7 @@
 
 namespace Tests;
 
+use Illuminate\Support\Str;
 use Aschmelyun\Cleaver\Engines\ContentEngine;
 use Aschmelyun\Cleaver\Engines\FileEngine;
 
@@ -21,7 +22,13 @@ class ContentEngineTest extends TestCase
         $this->assertInstanceOf($expected, $actual);
 
         $actual = $actual->count();
-        $expected = 1;
+        $expected = collect(new \RecursiveIteratorIterator(
+            new \RecursiveDirectoryIterator($fileEngine->contentDir())
+        ))
+        ->filter(function ($value, $key) {
+            return Str::endsWith($value->getFilename(), ['.json', '.md', '.markdown']);
+        })
+        ->count();
 
         $this->assertEquals($expected, $actual);
     }

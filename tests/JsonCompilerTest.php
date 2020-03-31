@@ -15,7 +15,7 @@ class JsonCompilerTest extends TestCase
     public function will_create_data_object_from_json_file()
     {
         $content = [
-            'view' => 'layout.test',
+            'view' => 'layouts.test',
             'path' => '/',
             'title' => 'This is a test'
         ];
@@ -26,7 +26,7 @@ class JsonCompilerTest extends TestCase
         $contentFile = new SplFileInfo($contentFile, FileEngine::contentDir(), $contentFile);
         $compiler = new JsonCompiler($contentFile);
 
-        $expected = 'layout.test';
+        $expected = 'layouts.test';
         $actual = $compiler->json->view;
         $this->assertEquals($expected, $actual);
 
@@ -64,7 +64,7 @@ class JsonCompilerTest extends TestCase
     public function will_return_false_for_formatting_json_files_without_path_set()
     {
         $content = [
-            'view' => 'layout.test',
+            'view' => 'layouts.test',
             'title' => 'This is a test'
         ];
         $contentFile = FileEngine::contentDir() . 'test.json';
@@ -83,7 +83,7 @@ class JsonCompilerTest extends TestCase
     public function will_return_true_for_formatting_json_files_with_view_and_path_set()
     {
         $content = [
-            'view' => 'layout.test',
+            'view' => 'layouts.test',
             'path' => '/',
             'title' => 'This is a test'
         ];

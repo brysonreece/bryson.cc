@@ -16,11 +16,11 @@ class MarkdownCompilerTest extends TestCase
     {
         $content = '
         ---
-        view: layout.test
+        view: layouts.test
         path: /
         title: This is a test
         ---
-        
+
         # This is a test
         ';
         $contentFile = FileEngine::contentDir() . 'test.md';
@@ -30,7 +30,7 @@ class MarkdownCompilerTest extends TestCase
         $contentFile = new SplFileInfo($contentFile, FileEngine::contentDir(), $contentFile);
         $compiler = new MarkdownCompiler($contentFile);
 
-        $expected = 'layout.test';
+        $expected = 'layouts.test';
         $actual = $compiler->json->view;
         $this->assertEquals($expected, $actual);
 
@@ -53,7 +53,7 @@ class MarkdownCompilerTest extends TestCase
         path: /
         title: This is a test
         ---
-        
+
         # This is a test
         ';
         $contentFile = FileEngine::contentDir() . 'test.md';
@@ -73,10 +73,10 @@ class MarkdownCompilerTest extends TestCase
     {
         $content = '
         ---
-        view: layout.test
+        view: layouts.test
         title: This is a test
         ---
-        
+
         # This is a test
         ';
         $contentFile = FileEngine::contentDir() . 'test.md';
@@ -96,11 +96,11 @@ class MarkdownCompilerTest extends TestCase
     {
         $content = '
         ---
-        view: layout.test
+        view: layouts.test
         path: /
         title: This is a test
         ---
-        
+
         # This is a test
         ';
         $contentFile = FileEngine::contentDir() . 'test.md';

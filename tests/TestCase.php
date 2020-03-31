@@ -10,7 +10,7 @@ class TestCase extends BaseTestCase
 {
 
     const VIEW_DATA_CORRECT = [
-        'view' => 'layout.test',
+        'view' => 'layouts.test',
         'path' => '/test-correct',
         'title' => 'This is a test',
         'mix' => [
@@ -28,7 +28,7 @@ class TestCase extends BaseTestCase
         ]
     ];
 
-    const TEST_VIEW_PATH = __DIR__ . '/../resources/views/layout/test.blade.php';
+    const TEST_VIEW_PATH = __DIR__ . '/../resources/views/layouts/test.blade.php';
 
     const MIX_MANIFEST_TEST_DATA = [
         "/dist/js/app.js" => "/dist/js/app.js",
