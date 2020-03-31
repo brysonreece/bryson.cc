@@ -200,7 +200,7 @@ Credit for most of these examples belong to the [Laravel docs](https://laravel.c
 
 <br>
 
-<strong>Well, that should be it! If you have any questions feel free to reach out, I'd love to help.</strong> <span class="wave">&#128075;</span>
+<strong>Well, that should be it! If you have any questions feel free to reach out, I'd love to help.</strong> <span class="wave">👋</span>
 
 <br>
 <br>

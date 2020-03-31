@@ -2,13 +2,13 @@
     <!-- Primary Meta Tags -->
     <meta charset="utf-8">
     <title>
-        👋 Bryson Reece &mdash;
-
         @if (isset($title))
             {{ $title }}
         @else
             Maker, Student, Human.
         @endif
+
+        &mdash; Bryson Reece 👋
     </title>
     <meta name="title" content="👋 Bryson Reece — Maker, Student, Human.">
     <meta name="description" content="DIY enthusiast and software engineer constantly looking for new projects and challenges.">

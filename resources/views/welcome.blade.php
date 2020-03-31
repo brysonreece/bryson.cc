@@ -3,7 +3,7 @@
 @section('content')
 <div class="hero">
     <div class="container max-w-4xl pb-6 md:py-12.5">
-        <h1 class="text-3xl md:text-5xl font-bold my-3.75">Hey! <span class="wave">&#128075;</span> <br class="md:hidden">I'm Bryson Reece</h1>
+        <h1 class="text-3xl md:text-5xl font-bold my-3.75">Hey! <span class="wave">👋</span> <br class="md:hidden">I'm Bryson Reece</h1>
 
         <h2 class="my-3.75 text-lg md:text-2xl">Lead Engineer at WellCaddie and DIY Enthusiast</h2>
 
