@@ -1,6 +1,7 @@
 ---
 view: layouts.post
 title: Using S3 with Laravel in 2020
+summary: Amazon S3 has changed a lot, however can still be confusing to set up properly with Laravel. Let me show you how to get started!
 path: /posts/using-s3-with-laravel-in-2020
 ---
 
