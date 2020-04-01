@@ -43,9 +43,12 @@ li ul {
 
     code {
         background-color: #272822;
-        padding: .3em;
         border-radius: .3em;
         color: #e6db74;
+    }
+
+    p code {
+        padding: .3em;
     }
 }
 

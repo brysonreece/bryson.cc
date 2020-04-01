@@ -134,11 +134,12 @@ AWS_BUCKET="<YOUR BUCKET ID>"
     <span class="text-base font-bold block">If you're utilizing IAM Permission Management</span>
     <p>You can configure your S3 Policies to only allow the following permissions:</p>
     <ul>
-        <li>s3:PutObjectAcl</li>
-        <li>s3:PutObject</li>
         <li>s3:GetObject</li>
+        <li>s3:PutObject</li>
         <li>s3:ListBucket</li>
         <li>s3:DeleteObject</li>
+        <li>s3:PutObjectAcl</li>
+        <li>s3:GetObjectAcl</li>
     </ul>
     <br>
     <p>
@@ -169,8 +170,6 @@ return Storage::put('file.jpg', $contents);
 
 ### Retrieving Files
 ```php
-use Illuminate\Support\Facades\Storage;
-
 $contents = Storage::get('file.jpg');
 ```
 
@@ -178,8 +177,6 @@ $contents = Storage::get('file.jpg');
 
 ### Downloading Files
 ```php
-use Illuminate\Support\Facades\Storage;
-
 return Storage::download('file.jpg');
 ```
 
@@ -187,8 +184,6 @@ return Storage::download('file.jpg');
 
 ### Setting File Visibility
 ```php
-use Illuminate\Support\Facades\Storage;
-
 $visibility = Storage::getVisibility('file.jpg');
 
 Storage::setVisibility('file.jpg', 'public');
