@@ -21,14 +21,14 @@
 
         <!-- Open Graph / Facebook -->
         <meta property="og:type" content="website">
-        <meta property="og:url" content="https://bryson.cc/">
+        <meta property="og:url" content="https://bryson.cc{{ $path ?? '/' }}">
         <meta property="og:title" content="👋 Bryson Reece — {{ $title ?? 'Maker, Student, Human.' }}">
         <meta property="og:description" content="{{ $summary ?? 'DIY enthusiast and software engineer constantly looking for new projects and challenges.' }}">
         <meta property="og:image" content="https://bryson.cc/img/social/meta.png">
 
         <!-- Twitter -->
         <meta property="twitter:card" content="summary_large_image">
-        <meta property="twitter:url" content="https://bryson.cc/">
+        <meta property="twitter:url" content="https://bryson.cc{{ $path ?? '/' }}">
         <meta property="twitter:title" content="👋 Bryson Reece — {{ $title ?? 'Maker, Student, Human.' }}">
         <meta property="twitter:description" content="{{ $summary ?? 'DIY enthusiast and software engineer constantly looking for new projects and challenges.' }}">
         <meta property="twitter:image" content="https://bryson.cc/img/social/meta.png">
