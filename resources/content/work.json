@@ -15,7 +15,7 @@
                 "begin": "Jun 2018",
                 "end": "Present"
             },
-            "description": "Implemented and facilitated a complete overhaul and refactor of both frontend and backend services of the WellCaddie platform directly resulting in a company valuation increase of several million dollars."
+            "description": "Currently oversee and manage a team of engineers in the development of the WellCaddie software line. Responsibilities include coordinating both the software and hardware development divisions of the company to produce a unified product package to sell to remote oil operators."
         },
         {
             "logo": "/img/logos/ou.png",
@@ -39,7 +39,7 @@
                 "begin": "May 2017",
                 "end": "Jun 2018"
             },
-            "description": null
+            "description": "Implemented and facilitated a complete overhaul and refactor of all frontend and backend services of the WellCaddie platform. Directly resulted in a company valuation increase of several million dollars."
         },
         {
             "logo": "/img/logos/wellcaddie.png",
@@ -56,7 +56,7 @@
         {
             "logo": "/img/logos/tankvault.png",
             "name": "Tankvault",
-            "title": "Software Engineering Internship",
+            "title": "Software Engineer Internship",
             "location": "Norman, OK",
             "dates": {
                 "begin": "Aug 2016",
