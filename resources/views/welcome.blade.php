@@ -9,7 +9,7 @@
 
         <div class="block my-16">
             <div class="inline-flex flex-col sm:flex-row items-center justify-center w-full">
-                <a class="primary-cta py-3 px-8 sm:py-4 sm:px-16 font-bold whitespace-no-wrap w-5/6 sm:w-auto sm:mr-6" href="/files/bryson-reece-resume.pdf" title="Resume">
+                <a class="primary-cta py-3 px-8 sm:py-4 sm:px-16 font-bold whitespace-no-wrap w-5/6 sm:w-auto sm:mr-6" href="/files/resume.pdf" title="Resume" download="bryson-reece-resume">
                     View Resume
                 </a>
 
