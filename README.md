@@ -1,3 +1,5 @@
+<center>
+
 [![About](https://img.shields.io/badge/-about-inactive)](https://bryson.cc/about)
 [![Work](https://img.shields.io/badge/-work-inactive)](https://bryson.cc/work)
 [![Projects](https://img.shields.io/badge/-projects-inactive)](https://bryson.cc/projects)
@@ -35,3 +37,5 @@ I'm currently looking for a new adventure!<br>
 
 Built with [Cleaver 🔪](https://github.com/aschmelyun/cleaver)
 Design inspired by [@abinavseelan 🎨](https://github.com/abinavseelan)
+
+</center>
