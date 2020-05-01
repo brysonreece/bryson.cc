@@ -10,8 +10,9 @@ module.exports = {
       }
     }
   },
-  variants: {},
   plugins: [
     require('@tailwindcss/ui')
-  ]
+  ],
+  purge: false,
+  variants: {}
 }
