@@ -5,7 +5,7 @@
         </a>
     </li>
     <li>
-        <a href="https://twitter.com/@brysonreece" title="Twitter">
+        <a href="https://twitter.com/brysonio" title="Twitter">
             <img src="/img/social/twitter.svg" alt="Twitter">
         </a>
     </li>
