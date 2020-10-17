@@ -5,7 +5,7 @@
     "talks": [
         {
             "title": "Introduction to PHP",
-            "description": "An interactive live-stream where individuals will be able to ask questions and follow along as I introduce learners to the PHP language. TOgether we'll be building an interactive photo gallery from scratch!",
+            "description": "An interactive live-stream where individuals will be able to ask questions and follow along as I introduce learners to the PHP language. Together we'll be building an interactive photo gallery from scratch!",
             "occured_at": "Nov 2020",
             "location": "Online",
             "facility": "FreeCodeCamp OKC, Techlahoma",
