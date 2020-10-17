@@ -11,7 +11,7 @@
             <div class="section expanded-card">
                 <div class="data-item">
                     <div class="inline">
-                        @if ($project->url)
+                        @if (isset($project->url))
                             <a href="{{ $project->url }}" target="_blank">
                                 <h3 class="md:text-xl font-bold">
                                     {{ $project->title }}
@@ -24,7 +24,7 @@
                         @endif
 
                         <h4 class="text-sm data-sub-heading">
-                            {{ $project->dates->begin }} @if ($project->dates->end) - {{ $project->dates->end }} @endif
+                            {{ $project->dates->begin }} @if (isset($project->dates->end)) - {{ $project->dates->end }} @endif
                         </h4>
                     </div>
                 </div>
@@ -33,15 +33,17 @@
                     <p></p>
                 </div>
 
-                @foreach ($project->resources as $resource)
-                    @if ($resource->html)
-                        {!! $resource->html !!}
-                    @else
-                        <a href="{{ $resource->url }}" target="_blank" class="block my-4 chevron">
-                            View {{ $resource->name }} <span>&#8250;</span>
-                        </a>
-                    @endif
-                @endforeach
+                @if (isset($project->resources))
+                    @foreach ($project->resources as $resource)
+                        @if (isset($resource->html))
+                            {!! $resource->html !!}
+                        @else
+                            <a href="{{ $resource->url }}" target="_blank" class="block my-4 chevron">
+                                View {{ $resource->name }} <span>&#8250;</span>
+                            </a>
+                        @endif
+                    @endforeach
+                @endif
             </div>
         @endforeach
     </div>

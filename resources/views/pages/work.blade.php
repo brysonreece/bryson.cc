@@ -10,12 +10,12 @@
         @foreach ($jobs as $job)
             <div class="section expanded-card">
                 <div class="data-item flex flex-row items-center">
-                    @if ($job->logo)
+                    @if (isset($job->logo))
                         <img src="{{ $job->logo }}" alt="{{ $job->name }}">
                     @endif
 
                     <div class="inline">
-                        @if ($job->url)
+                        @if (isset($job->url))
                             <a href="{{ $job->url }}" target="_blank">
                                 <h3 class="md:text-xl font-bold">
                                     {{ $job->title }} - {{ $job->name }}
@@ -28,7 +28,7 @@
                         @endif
 
                         <h4 class="text-sm data-sub-heading">
-                            {{ $job->dates->begin }} @if ($job->dates->end) - {{ $job->dates->end }}@endif, {{ $job->location }}
+                            {{ $job->dates->begin }} @if (isset($job->dates->end)) - {{ $job->dates->end }}@endif, {{ $job->location }}
                         </h4>
                     </div>
                 </div>
@@ -37,11 +37,17 @@
                     <p></p>
                 </div>
 
-                @foreach ($job->resources as $resource)
-                    <a href="{{ $resource->url }}" target="_blank" class="block my-4 chevron">
-                        View {{ $resource->name }} <span>&#8250;</span>
-                    </a>
-                @endforeach
+                @if (isset($job->resources))
+                    @foreach ($job->resources as $resource)
+                        @if (isset($resource->html))
+                            {!! $resource->html !!}
+                        @else
+                            <a href="{{ $resource->url }}" target="_blank" class="block my-4 chevron">
+                                View {{ $resource->name }} <span>&#8250;</span>
+                            </a>
+                        @endif
+                    @endforeach
+                @endif
             </div>
         @endforeach
     </div>
@@ -51,12 +57,12 @@
         @foreach ($community as $experience)
             <div class="section expanded-card">
                 <div class="data-item flex flex-row items-center">
-                    @if ($experience->logo)
+                    @if (isset($experience->logo))
                         <img src="{{ $experience->logo }}" alt="{{ $experience->name }}">
                     @endif
 
                     <div class="inline">
-                        @if ($experience->url)
+                        @if (isset($experience->url))
                             <a href="{{ $experience->url }}" target="_blank">
                                 <h3 class="md:text-xl font-bold">
                                     {{ $experience->name }}
@@ -69,7 +75,7 @@
                         @endif
 
                         <h4 class="text-sm data-sub-heading">
-                            {{ $experience->dates->begin }} @if ($experience->dates->end) - {{ $experience->dates->end }}@endif, {{ $experience->title }}
+                            {{ $experience->dates->begin }} @if (isset($experience->dates->end)) - {{ $experience->dates->end }}@endif, {{ $experience->title }}
                         </h4>
                     </div>
                 </div>
@@ -78,11 +84,17 @@
                     <p></p>
                 </div>
 
-                @foreach ($experience->resources as $resource)
-                    <a href="{{ $resource->url }}" target="_blank" class="block my-4 chevron">
-                        View {{ $resource->name }} <span>&#8250;</span>
-                    </a>
-                @endforeach
+                @if (isset($experience->resources))
+                    @foreach ($experience->resources as $resource)
+                        @if (isset($resource->html))
+                            {!! $resource->html !!}
+                        @else
+                            <a href="{{ $resource->url }}" target="_blank" class="block my-4 chevron">
+                                View {{ $resource->name }} <span>&#8250;</span>
+                            </a>
+                        @endif
+                    @endforeach
+                @endif
             </div>
         @endforeach
     </div>
