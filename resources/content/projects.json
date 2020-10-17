@@ -2,19 +2,7 @@
     "view": "pages.projects",
     "path": "/projects",
     "title": "Projects.",
-    "projects": [{
-            "title": "Quark",
-            "dates": {
-                "begin": "Feb 2020",
-                "end": "Present"
-            },
-            "description": "An open source alternative to <a href=\"https://spark.laravel.com\">Laravel Spark</a> targeted towards IoT development using the Particle.io platform.",
-            "resources": [
-                {
-                    "html": "<p class=\"my-4 font-bold chevron\">Coming Soon</p>"
-                }
-            ]
-        },
+    "projects": [
         {
             "title": "tailwind-colors",
             "dates": {

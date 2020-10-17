@@ -19,10 +19,7 @@ I'm extremely proud of a select few projects I've had to honor to work with othe
 <br>
 
 <ul class="ml-4 mb-2">
-    <li class="mt-2">
-        <strong>2020:</strong> Started work on Quark, an open-source Laravel Spark alternative geared towards IoT development.
-    </li>
-    <li class="mt-2">
+    <li>
         <strong>2019:</strong> Built out a number of internal tooling solutions for WellCaddie.
     </li>
     <li class="mt-2">
