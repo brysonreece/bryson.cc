@@ -4,6 +4,19 @@
     "title": "Talks.",
     "talks": [
         {
+            "title": "Introduction to PHP",
+            "description": "An interactive live-stream where individuals will be able to ask questions and follow along as I introduce learners to the PHP language. TOgether we'll be building an interactive photo gallery from scratch!",
+            "occured_at": "Nov 2020",
+            "location": "Online",
+            "facility": "FreeCodeCamp OKC, Techlahoma",
+            "resources": [
+                {
+                    "name": "Meetup Event",
+                    "url": "https://www.meetup.com/FreeCodeCampOKC/events/273985299/"
+                }
+            ]
+        },
+        {
             "title": "Developing for the Microsoft HoloLens",
             "description": "Cursory overview of the <a href=\"https://microsoft.com/en-us/hololens\">Microsoft Hololens</a> platform, as well as a live demonstration of developing an application for it using <a href=\"https://unity.com/\">Unity</a>.",
             "occured_at": "Sep 2018",
