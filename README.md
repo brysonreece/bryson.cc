@@ -32,10 +32,4 @@
   [![LinkedIn](https://img.shields.io/badge/-LinkedIn-inactive)](https://www.linkedin.com/in/brysonreece/)
   [![Email](https://img.shields.io/badge/-Email-inactive)](mailto:hey@bryson.cc)
 
-  <br>
-  <br>
-
-  Built with [Cleaver 🔪](https://github.com/aschmelyun/cleaver)
-  Design inspired by [@abinavseelan 🎨](https://github.com/abinavseelan)
-
 </span>
