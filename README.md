@@ -9,7 +9,9 @@
   <br>
 
   # Hey! 👋 I'm Bryson Reece
-  ### Lead Engineer at WellCaddie and DIY Enthusiast
+  ### Senior Software Engineer at Wunderite
+  ### Head of Engineering at WellCaddie
+  ### Maker && DIY Enthusiast
 
   <br>
 
@@ -17,14 +19,6 @@
   [![About Me](https://img.shields.io/badge/-About%20Me-blue)](https://github.com/brysonreece/bryson.cc/blob/master/resources/content/about.md)
 
   <br>
-  <br>
-
-  I'm currently looking for a new adventure!<br>
-  <strong><a href="mailto:hey@bryson.cc?subject=Let's build something great together!">Think I'd be a good fit on your team?</a></strong>
-
-  <br>
-
-  ----
 
   [![GitHub](https://img.shields.io/badge/-GitHub-inactive)](https://github.com/brysonreece)
   [![Twitter](https://img.shields.io/badge/-Twitter-inactive)](https://twitter.com/brysonio)
